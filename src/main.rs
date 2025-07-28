@@ -1,7 +1,11 @@
 extern crate clap;
+extern crate colored;
+extern crate vividry;
 use clap::*;
 use colored::Colorize;
 use vividry::Color;
+
+
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
