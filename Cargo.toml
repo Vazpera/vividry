@@ -1,6 +1,15 @@
 [package]
 name = "vividry"
-version = "0.1.0"
-edition = "2024"
+version = "0.2.0"
+authors = ["Vazpera"]
+license = "MIT"
+description = "A hobbyist rewrite of the `pastel` project"
+readme = "README.md"
+homepage = "https://github.com/vazpera/vividry"
+repository = "https://github.com/vazpera/vividry"
+keywords = ["cli"]
+categories = ["command-line-utilities"]
 
 [dependencies]
+clap = { version = "4.5.41", features = ["derive", "string"] }
+colored = "3.0.0"
